@@ -4,3 +4,4 @@ set -e
 
 mkdir $1 || true
 cd $1
+exec bash
